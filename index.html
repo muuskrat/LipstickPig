@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="kiss.png">
+
     <style>
         /* Custom styles to enhance the design */
         body {
@@ -34,7 +36,7 @@
         <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
             <!-- Business Name/Logo -->
             <a href="#" class="text-3xl font-bold text-red-500 hover:text-red-400 transition-colors">
-                The Lipstick Pig BBQ
+                The Lipstick Pig
             </a>
             <!-- Navigation Links -->
             <div class="mt-4 md:mt-0 flex space-x-6">
@@ -51,11 +53,9 @@
 
         <!-- Home Page Section -->
         <section id="home" class="page bg-gray-800 rounded-2xl shadow-xl p-8 md:p-16 text-center">
-            <h1 class="text-6xl md:text-8xl font-extrabold text-white leading-tight">
-                Authentic BBQ for a Big Flavor
-            </h1>
+            <img src="kiss.png" alt="Delicious BBQ platter" class="rounded-2xl mt-1 mx-auto w-1/2">
             <p class="text-xl md:text-2xl mt-4 text-gray-400">
-                Slow-smoked perfection, crafted with passion.
+                Family owned, perfection, crafted with passion.
             </p>
             <div class="mt-10">
                 <a href="#menu" class="nav-link bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full shadow-lg transition-transform transform hover:scale-105">
@@ -63,7 +63,7 @@
                 </a>
             </div>
             <!-- Placeholder for a hero image -->
-            <img src="https://placehold.co/1200x600/1e1e1e/fff?text=Hero+Image+of+BBQ" alt="Delicious BBQ platter" class="rounded-2xl mt-12 mx-auto shadow-2xl">
+            
         </section>
 
         <!-- About Page Section -->
@@ -80,40 +80,34 @@
         <!-- Menu Page Section -->
         <section id="menu" class="page bg-gray-800 rounded-2xl shadow-xl p-8 md:p-16">
             <h2 class="text-5xl font-bold text-red-500 mb-6 text-center">Our Menu</h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-                <!-- Menu Item Card -->
-                <div class="bg-gray-700 rounded-xl p-6 shadow-md transition-transform transform hover:scale-105">
-                    <h3 class="text-2xl font-semibold text-white">Pulled Pork Sandwich</h3>
-                    <p class="text-red-400 font-bold text-xl mt-2">$12.99</p>
-                    <p class="text-gray-400 mt-2">Slow-smoked pork, hand-pulled and topped with our signature tangy BBQ sauce on a toasted brioche bun.</p>
-                </div>
-                <div class="bg-gray-700 rounded-xl p-6 shadow-md transition-transform transform hover:scale-105">
-                    <h3 class="text-2xl font-semibold text-white">Smoked Brisket Platter</h3>
-                    <p class="text-red-400 font-bold text-xl mt-2">$18.99</p>
-                    <p class="text-gray-400 mt-2">Tender, juicy slices of beef brisket smoked for 12 hours. Served with coleslaw and cornbread.</p>
-                </div>
-                <div class="bg-gray-700 rounded-xl p-6 shadow-md transition-transform transform hover:scale-105">
-                    <h3 class="text-2xl font-semibold text-white">Classic Ribs</h3>
-                    <p class="text-red-400 font-bold text-xl mt-2">$21.99</p>
-                    <p class="text-gray-400 mt-2">Fall-off-the-bone ribs, generously seasoned and glazed with your choice of sweet or spicy BBQ sauce.</p>
-                </div>
-                <div class="bg-gray-700 rounded-xl p-6 shadow-md transition-transform transform hover:scale-105">
-                    <h3 class="text-2xl font-semibold text-white">Mac & Cheese</h3>
-                    <p class="text-red-400 font-bold text-xl mt-2">$5.99</p>
-                    <p class="text-gray-400 mt-2">Our creamy, three-cheese mac & cheese, baked to golden perfection.</p>
-                </div>
-                <div class="bg-gray-700 rounded-xl p-6 shadow-md transition-transform transform hover:scale-105">
-                    <h3 class="text-2xl font-semibold text-white">BBQ Baked Beans</h3>
-                    <p class="text-red-400 font-bold text-xl mt-2">$4.99</p>
-                    <p class="text-gray-400 mt-2">Smoky baked beans with pieces of brisket and bacon for extra flavor.</p>
-                </div>
-                <div class="bg-gray-700 rounded-xl p-6 shadow-md transition-transform transform hover:scale-105">
-                    <h3 class="text-2xl font-semibold text-white">Sweet Tea</h3>
-                    <p class="text-red-400 font-bold text-xl mt-2">$2.99</p>
-                    <p class="text-gray-400 mt-2">Freshly brewed and perfectly sweet, a Southern classic.</p>
+            <div class="flex justify-center mt-8">
+                <div class="bg-gray-700 rounded-xl p-6 shadow-md transition-transform transform hover:scale-105 max-w-lg w-full">
+                    <h3 class="text-2xl font-semibold text-white">Coming Soon!</h3>
+                    <p class="text-red-400 font-bold text-xl mt-2"></p>
+                    <p class="text-gray-400 mt-2">Signature recipes hand crafted with love passed down through generations.</p>
                 </div>
             </div>
+            
+            <!-- MERCH Items -->
+            <h2 class="text-5xl font-bold text-red-500 mb-6 mt-12 text-center">Our Merch</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                <!-- Menu Item Card -->
+                <div class="bg-gray-700 rounded-xl p-6 shadow-md transition-transform transform hover:scale-105 text-center">
+                    <h3 class="text-2xl font-semibold text-white">Lipstick Pig Logo Pillow</h3>
+                    <img src="pillow.png" alt="Lipstick Pig Logo Pillow" class="mt-4 rounded-xl mx-auto w-1/2">
+                </div>
+                <div class="bg-gray-700 rounded-xl p-6 shadow-md transition-transform transform hover:scale-105 text-center">
+                    <h3 class="text-2xl font-semibold text-white">Piggy! Pillow</h3>
+                    <img src="piggy.png" alt="Piggy! Pillow" class="mt-4 rounded-xl mx-auto w-1/2">
+                </div>
+                <div class="bg-gray-700 rounded-xl p-6 shadow-md transition-transform transform hover:scale-105 text-center">
+                    <h3 class="text-2xl font-semibold text-white">Lipstick Pig Hat</h3>
+                    <img src="hat.png" alt="Lipstick Pig Hat" class="mt-4 rounded-xl mx-auto w-3/4">
+                </div>
+
+            </div>
         </section>
+        
 
         <!-- Contact Page Section -->
         <section id="contact" class="page bg-gray-800 rounded-2xl shadow-xl p-8 md:p-16">
@@ -127,11 +121,11 @@
                     </div>
                     <div class="mb-4">
                         <p class="text-gray-400 text-lg">Email:</p>
-                        <p class="text-white text-2xl font-semibold">info@lipstickpigbbq.com</p>
+                        <p class="text-white text-2xl font-semibold">dawnducharme77@gmail.com</p>
                     </div>
                     <div>
                         <p class="text-gray-400 text-lg">Address:</p>
-                        <p class="text-white text-2xl font-semibold">123 BBQ Street, Flavorville, USA</p>
+                        <p class="text-white text-2xl font-semibold">Coming Soon!</p>
                     </div>
                 </div>
                 <!-- Contact Form (using a basic layout, no backend functionality) -->
